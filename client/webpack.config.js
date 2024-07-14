@@ -30,6 +30,7 @@ module.exports = () => {
     },
     plugins: [
       new HtmlWebpackPlugin({
+        template: 'index.html',
         title: 'Just Another Text Editor',
         filename: 'index.html'
       }),
